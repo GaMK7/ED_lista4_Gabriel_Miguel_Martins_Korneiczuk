@@ -2,6 +2,7 @@
 
 void copiar(char *origem, char *destino){
 	
+	// Copia cada caractere da string de origem para destino até encontrar o caractere nulo '\0'
 	while (*origem != '\0'){
 		*destino = *origem;
 		

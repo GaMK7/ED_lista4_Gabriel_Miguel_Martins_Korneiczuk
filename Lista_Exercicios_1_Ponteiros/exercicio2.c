@@ -2,8 +2,11 @@
 
 void encontrarMaiorMenor(int *array, int tamanho, int *maior, int *menor){
 	
+	// Inicializa maior e menor com o primeiro elemento
 	*maior = array[0];
 	*menor = array[0];
+
+	// Percorre o vetor
 	for(int i = 0; i < tamanho; i++){
 		if(array[i] > *maior){
 			*maior = array[i];
